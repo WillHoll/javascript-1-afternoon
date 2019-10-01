@@ -72,7 +72,7 @@ let dog = {
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+let devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -83,7 +83,14 @@ let dog = {
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-// Code here
+function nameCheck(name) {
+  if (name === "Steven") {
+    return "What is up Steven?";
+  } if (name === "Bryan") {
+    return "Hey Bryan!"
+  } else 
+  return "Cool name, " + name;
+}
 
 //////////////////PROBLEM 11////////////////////
 
