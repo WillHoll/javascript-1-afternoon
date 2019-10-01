@@ -20,13 +20,13 @@ let lovesCode = true;
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-
+let greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
+let devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
